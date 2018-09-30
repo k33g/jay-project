@@ -3,6 +3,10 @@ provider:
   gateway: http://127.0.0.1:8080
 
 functions:
+  hello:
+    lang: go
+    handler: ./hello
+    image: k33g/hello:latest
   welcome:
     lang: node
     handler: ./welcome
