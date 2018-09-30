@@ -20,6 +20,6 @@ func Handle(req []byte) string {
 		text: "👋 I ❤️ OpenFaaS"
 	})
 
-	return string(message)
-	//return fmt.Sprintf("%s", string(message))
+	//return string(message)
+	return fmt.Sprintf("%s", string(message))
 }
