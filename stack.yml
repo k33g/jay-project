@@ -7,6 +7,10 @@ functions:
     lang: go
     handler: ./hello
     image: k33g/hello:latest
+  hi:
+    lang: node
+    handler: ./hi
+    image: k33g/hi:latest
   welcome:
     lang: node
     handler: ./welcome
