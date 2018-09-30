@@ -11,7 +11,7 @@ type Message struct {
 	text string `json:"text"`
 }
 
-// Handle a serverless request
+// Handle a serverless request...
 func Handle(req []byte) string {
 
 	message := json.Marshal(Message{

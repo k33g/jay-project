@@ -29,4 +29,17 @@ To append new functions type in:
 
 ```shell
 faas new <name-of-new-function> --lang go --prefix k33g --append=./stack.yml 
+
+faas new hello --lang go --prefix k33g --append=./stack.yml 
+
 ```
+
+
+### DashBoard
+
+- https://system.o6s.io/dashboard/k33g
+
+### Function
+
+- https://k33g.o6s.io/welcome
+
